@@ -47,28 +47,27 @@ const Desktop = () => {
                 <PageTitle
                 sm="4"
                 title="Desktop"
-                subtitle="
-                "
+                subtitle="Main page"
                 className="text-sm-left"
                 />
             </Row>
 
             <Row className="mb-4">
-              <Col>
+              <Col sm={{ size: 5, offset: 1 }}>
               <Card>
-                <CardHeader className="border-bottom"><Row><h5>Cases Accepted & Not Filed</h5></Row></CardHeader>
+                <CardHeader className="border-bottom"><Row><h5>Cases Accepted But Not Filed</h5></Row></CardHeader>
                 <CardBody>
-                <table className="table mb-0 hover">
+                <table className="table mb-0" style={{fontSize: "small"}}>
                 <thead className="bg-light">
                   <tr>
                     <th scope="col" className="border-0">
-                      Accepted on
+                      Accepted
                     </th>
                     <th scope="col" className="border-0">
                       Property Manager
                     </th>
                     <th scope="col" className="border-0">
-                      Resident 1
+                      Resident
                     </th>
                     <th scope="col" className="border-0">
                       Address
@@ -93,7 +92,7 @@ const Desktop = () => {
                 </CardBody>
               </Card>
               </Col>
-              <Col>
+              <Col sm={{ size: 6}}>
               <Card>
               <CardHeader className="border-bottom"><h5>Card 2</h5></CardHeader>
               <CardBody>
@@ -103,7 +102,7 @@ const Desktop = () => {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col sm={{ size: 11, offset: 1 }}>
             <Card>
               <CardHeader className="border-bottom"><h5>Card 3</h5></CardHeader>
               <CardBody>

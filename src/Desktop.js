@@ -48,7 +48,7 @@ const Desktop = () => {
                 <PageTitle
                 sm="4"
                 title="Desktop"
-                subtitle="Main page"
+                subtitle="Main page"C9E5EE
                 className="text-sm-left"
                 />
             </Row>
@@ -60,7 +60,7 @@ const Desktop = () => {
               <CardBody>
                 <table className="table mb-0" style={{fontSize: "small"}}>
                 <thead className="bg-light">
-                  <tr style={{backgroundColor: "#E5E4E2"}}>
+                  <tr style={{backgroundColor: "#C9E5EE"}}>
                   <th scope="col" className="border-0 font-bold" style={{fontSize: "medium"}}>
                       Clay County, MO
                   </th>
@@ -68,7 +68,7 @@ const Desktop = () => {
                       October 31, 2022
                   </th>
                   </tr>                  
-                  <tr style={{backgroundColor: "#E5E4E2"}}>
+                  <tr style={{backgroundColor: "#C9E5EE"}}>
                   <td className="border-2" style={{fontSize: "medium"}}>
                       Division 9
                   </td>
@@ -122,7 +122,7 @@ const Desktop = () => {
 
                 <table className="table mb-0" style={{fontSize: "small"}}>
                 <thead className="bg-light">
-                  <tr style={{backgroundColor: "#E5E4E2"}}>
+                  <tr style={{backgroundColor: "#C9E5EE"}}>
                   <th scope="col" className="border-0 font-bold" style={{fontSize: "medium"}}>
                       Jackson County, MO
                   </th>
@@ -130,7 +130,7 @@ const Desktop = () => {
                       November 3, 2022
                   </th>
                   </tr>                  
-                  <tr style={{backgroundColor: "#E5E4E2"}}>
+                  <tr style={{backgroundColor: "#C9E5EE"}}>
                   <td className="border-2" style={{fontSize: "medium"}}>
                       Division 26
                   </td>
@@ -181,7 +181,7 @@ const Desktop = () => {
                 </tr>
                 </tbody>
                 <thead>
-                <tr style={{backgroundColor: "#E5E4E2"}}>
+                <tr style={{backgroundColor: "#C9E5EE"}}>
                   <td className="border-2" style={{fontSize: "medium"}}>
                       Division 31
                   </td>
